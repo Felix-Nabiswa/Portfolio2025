@@ -18,7 +18,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
@@ -27,7 +27,7 @@
               <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             
             <li class="nav-item">
@@ -42,104 +42,219 @@
       </div>
     </nav>
 
-    <div id="about"  class="container-md py-5 mt-5"> 
+    <section id="home" class="container py-5 mt-5">
+    <div class="row align-items-center g-5">
+      <!-- Left Column -->
+      <div class="col-md-7">
+        <!-- Badge -->
+        <span class="badge rounded-pill bg-success bg-opacity-25 text-success mb-3 px-3 py-2">
+          Open to work · Remote
+        </span>
+
+        <!-- Heading -->
+        <h1 class="fw-bold display-6 lh-tight">
+           Full-Stack Healthcare IT Professional: Expert in System Deployment, Python Automation for Operational Excellence
+        </h1>
+
+        <!-- Intro Text -->
+        <p class="lead text-muted mt-3" >
+          Hi — I'm Felix, a <strong><em style=" font-weight: 600; color: #343a40;"><u>Technical Support Engineer</u></em></strong> & <u><strong><em style=" font-weight: 600; color: #343a40;">Python Developer</u></em></strong>.<br>
+          I specialize in deploying and maintaining critical ICT systems. <br>
+          My focus is on delivering value through a unique blend of hands-on support and proactive development.
+        </p>
+        <!-- Buttons -->
+        <div class="mt-4">
+          <a href="#projects" class="btn btn-dark me-3">See Projects</a>
+          <a href="#contact" class="btn btn-outline-dark">Contact Me</a>
+        </div>
+
+        <!-- Skills -->
+        <div class="mt-5 d-flex flex-wrap gap-2">
+          <span class="badge bg-light text-dark px-3 py-2">Technical Support & IT</span>
+          <span class="badge bg-light text-dark px-3 py-2">Programming & Development</span>
+          <span class="badge bg-light text-dark px-3 py-2">Project Management & Documentation</span>
+          <span class="badge bg-light text-dark px-3 py-2">Cloud & Infrastructure</span>
+          <span class="badge bg-light text-dark px-3 py-2">Healthcare IT</span>
+          <span class="badge bg-light text-dark px-3 py-2">Data Analytics</span>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="col-md-5">
+        <!-- Featured Card -->
+        <div class="card shadow-lg border-0">
+          <img src=""
+                alt="Developer at work"
+                class="card-img-top"
+                style="height: 280px; object-fit: cover;"
+                loading="lazy">
+          <div class="card-body">
+            <div class="text-muted small">Featured</div>
+            <div class="fw-semibold">Open-source analytics toolkit</div>
+            <div class="text-muted small">Flask · Pandas · Matplotlib</div>
+          </div>
+        </div>
+
+        <!-- Info Grid -->
+        <div class="row mt-4 g-3">
+          <div class="col-6">
+            <div class="p-3 rounded bg-warning bg-opacity-25">
+              <div class="text-uppercase small text-warning fw-semibold">Location</div>
+              <div class="fw-bold">Nairobi, Kenya</div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="p-3 rounded bg-success bg-opacity-25">
+              <div class="text-uppercase small text-success fw-semibold">Availability</div>
+              <div class="fw-bold">Freelance & Full-time</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section id="about">
+    <div   class="container-md py-5 mt-5"> 
       <div class="row g-4 align-items-start">
         
         <!-- Main Content -->
         <div class="col-md-8">
           <h2 class="h4 fw-bold">About Me</h2>
           <p class="text-secondary">
-            I'm a Technical Support Specialist with over 4 years of experience, specializing in the deployment and optimization of critical healthcare technology. <br>
-            My journey began with solving complex network and VoIP challenges for hospital nurse call systems, where I developed a passion for ensuring seamless, secure, and reliable operations. <br>
-            I excel at translating intricate technical issues into effective, user-centric solutions that uphold strict compliance standards.
+            I am a Technical Support Engineer with over four years of experience in healthcare IT solutions.<br>
+            My expertise lies in system deployment, troubleshooting, project management, and Python scripting.
           </p>
 
           <p class="text-secondary">
-            I specialize in VoIP systems, network troubleshooting with tools like Wireshark, and designing secure, compliant infrastructure. <br>
-            My work is driven by a focus on proactive monitoring, process automation, and value-driven delivery to maximize system uptime and user productivity.
+            With specialized knowledge in VoIP nurse call systems, biomedical equipment, and automation tools, 
+            I have successfully led projects across leading healthcare providers in Nairobi.
           </p>
 
-          <div class="mt-4">
-            <h3 class="fw-medium">Approach</h3>
-            <ul class="list-unstyled ms-3 text-secondary mt-2">
-              <li>• Value-driven support — prioritize uptime and user impact</li>
-              <li>• Design for observability and proactive error resolution</li>
-          
+          <p class="text-secondary">
+            My passion lies in leveraging technology to solve complex healthcare challenges, improve patient care, <br>
+            and streamline clinical workflows through innovative technical solutions.
+          </p>
+
+        </div>
+        <div class="mt-4">
+          <a href="#contact" class="btn btn-dark me-3">Let's Connect</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Skills Section -->
+<section id="skills" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="fw-bold mb-4 text-center">  <i class="bi bi-tools me-2"></i> Technical Skills</h2>
+    <div class="row g-4">
+
+      <!-- Technical Support -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <h5 class="card-title fw-semibold mb-3"> <i class="bi bi-headset me-2"></i>  Technical Support</h5>
+            <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-check-circle text-success me-2"></i>System Deployment & Configuration</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>Troubleshooting & Diagnostics</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>VoIP Systems</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>Network Administration</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>Customer Support</li>
+              
             </ul>
           </div>
         </div>
+      </div>
 
-        <!-- Sidebar -->
-        <aside class="col-md-4">
-          <div class="p-4 bg-light rounded">
-            <div class="small text-muted">Contact</div>
-            <div class="fw-semibold mt-1">felixnabiswa9@gmail.com</div>
-
-            <div class="mt-4">
-              <div class="small text-muted">Experience</div>
-              <div class="mt-1 small">
-                4+ years deploying and supporting critical network infrastructure and VoIP systems for healthcare and enterprise clients.
-              </div>
-            </div>
-
-            <div class="mt-4">
-              <div class="small text-muted">Languages</div>
-              <div class="mt-1 small">
-                English, Kiswahili
-              </div>
-            </div>
+      <!-- Programming & Scripting -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <h5 class="card-title fw-semibold mb-3"> <i class="bi bi-code-slash"></i> Programming & Development</h5>
+            <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-check-circle text-success me-2"></i>Python Scripting</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>JavaScript</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>Low-code/No-code Development</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>API Integration</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>Flask (Web Framework)</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>Version Control</li>
+            </ul>
           </div>
-        </aside>
-
-      </div>
-    </div>
-
-    <div id="skills" class="container my-5 py-5">
-
-      <h2 class="h4 fw-bold">Technical Skills</h2>
-
-      <div class="row">
-        <!-- Networking -->
-        <div class="col-md-6 mb-4">
-          <h5 class="fw-semibold">Networking</h5>
-          <p class="text-muted">TCP/IP, VLANs, VPN, Routing & Switching, Firewalls, DHCP/DNS</p>
-        </div>
-
-        <!-- Certifications -->
-        <div class="col-md-6 mb-4">
-          <h5 class="fw-semibold">Certifications</h5>
-          <p class="text-muted">CompTIA Network+</p>
-        </div>
-
-        <!-- Operating Systems -->
-        <div class="col-md-6 mb-4">
-          <h5 class="fw-semibold">Operating Systems</h5>
-          <p class="text-muted">Linux (Ubuntu), Windows Server</p>
-        </div>
-
-        <!-- Cloud & Virtualization -->
-        <div class="col-md-6 mb-4">
-          <h5 class="fw-semibold">Cloud & Virtualization</h5>
-          <p class="text-muted">AWS, VMware</p>
-        </div>
-
-        <!-- Scripting/Automation -->
-        <div class="col-md-6 mb-4">
-          <h5 class="fw-semibold">Scripting & Automation</h5>
-          <p class="text-muted">Python</p>
-        </div>
-
-        <!-- Tools -->
-        <div class="col-md-6 mb-4">
-          <h5 class="fw-semibold">Tools</h5>
-          <p class="text-muted">Nmap, Ansible, Git</p>
         </div>
       </div>
+
+      <!-- Cloud & Infrastructure -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <h5 class="card-title fw-semibold mb-3"> <i class="bi bi-cloud"></i> Cloud & Infrastructure</h5>
+            <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-check-circle text-success me-2"></i>Linux System Administration</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>AWS Services</li>
+              <!-- <li><i class="fas fa-check-circle text-success me-2"></i>Docker Containers</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>CI/CD Pipelines</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>Infrastructure as Code</li> -->
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Healthcare IT -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <h5 class="card-title fw-semibold mb-3">  <i class="bi bi-heart-pulse me-2"></i> Healthcare </h5>
+            <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-check-circle text-success me-2"></i>Biomedical Equipment</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>HL7 & FHIR Standards</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>EHR/EMR Systems</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>HIPAA Compliance</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>Medical Device Integration</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>Healthcare Data Security</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Management & Documentation -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <h5  class="card-title fw-semibold mb-3"> <i class="bi bi-kanban me-2"></i> Project Management </h5>
+            <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-check-circle text-success me-2"></i>Project Lifecycle Management</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>Technical Documentation</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>Stakeholder Collaboration</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Data Analytics -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card h-100 shadow-sm border-0">
+          <div class="card-body">
+            <h5 class="card-title fw-semibold mb-3"> <i class="bi bi-clipboard-data"></i> Data Analytics </h5>
+            <ul class="list-unstyled mb-0">
+              <li><i class="fas fa-check-circle text-success me-2"></i>Data Cleansing</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>Exploratory Data Analysis (EDA)</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>Data Visualization</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>Pandas</li>
+              <li><i class="fas fa-check-circle text-success me-2"></i>Matplotlib</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
     </div>
+  </div>
+</section>
 
-  
-
-    <div id="contact" class="card shadow-sm rounded-3 bg-white p-4 w-75 mx-auto mb-md-5">
+<section id="contact">
+    <div  class="card shadow-sm rounded-3 bg-white p-4 w-50 mx-auto mb-md-5">
 
     <h2 class="text-center fw-bold mb-4">Contact</h2>
       <h3 class="fs-4 fw-semibold mb-2">Get in touch</h3>
@@ -182,6 +297,7 @@
         </a>
       </div>
     </div>
+  </section>
 
         <footer class="border-top py-4 bg-light">
       <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center text-muted small">
